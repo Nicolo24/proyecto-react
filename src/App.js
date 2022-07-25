@@ -1,4 +1,5 @@
 import React, {useState, useEffect, useRef} from 'react';
+import Table from 'react-bootstrap/Table'
 
 import './App.css';
 
