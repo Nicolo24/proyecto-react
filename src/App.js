@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <label>Only Pending</label>
       <input type="checkbox" onChange={fetchApi}/>
-      <table stripped bordered hover size="sm">
+      <Table stripped bordered hover size="sm">
         <thead>
           <tr>
             <th>
@@ -49,7 +49,7 @@ function App() {
             })
           }
         </tbody>
-      </table>
+      </Table>
     </div>
   )
 }
